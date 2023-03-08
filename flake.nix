@@ -14,5 +14,10 @@
       contents = [ nixpkgs.legacyPackages.aarch64-linux.bashInteractive ];
     };
 
+    packages.x86_64-linux.my-bash-image = flakehub.packages.x86_64-linux.flakehubTools.streamLayeredImageConf {
+      name = "bash-stream-layered";
+      contents = [ nixpkgs.legacyPackages.x86_64-linux.bashInteractive ];
+    };
+
   };
 }
