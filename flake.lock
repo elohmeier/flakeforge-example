@@ -15,7 +15,7 @@
         "type": "github"
       }
     },
-    "flakehub": {
+    "flakeforge": {
       "inputs": {
         "flake-utils": "flake-utils",
         "nixpkgs": [
@@ -23,26 +23,26 @@
         ]
       },
       "locked": {
-        "lastModified": 1678280118,
-        "narHash": "sha256-SXEHeT9W84yf0ZWihwPGa0CRq+r1rMZZIPw3AKx1x5g=",
+        "lastModified": 1692699039,
+        "narHash": "sha256-AU7APiq58gSwqigYF2KykVlshp1FkwBLWH4ZsBsnt9Y=",
         "owner": "elohmeier",
-        "repo": "flakehub",
-        "rev": "5e3cb54d4a7f2da0b027402ad4c344cfa5b6187d",
+        "repo": "flakeforge",
+        "rev": "8e074b98bf26c4ec44e4b6b897ae2380b5bef4a7",
         "type": "github"
       },
       "original": {
         "owner": "elohmeier",
-        "repo": "flakehub",
+        "repo": "flakeforge",
         "type": "github"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1678137616,
-        "narHash": "sha256-T+lWTRdcYaOnZQW+Ehdlg+YldC2l9cq2GXJFPq22Nxc=",
+        "lastModified": 1688392541,
+        "narHash": "sha256-lHrKvEkCPTUO+7tPfjIcb7Trk6k31rz18vkyqmkeJfY=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "7edcdf7b169c33cd3eef9aba50521ce93ee666b8",
+        "rev": "ea4c80b39be4c09702b0cb3b42eab59e2ba4f24b",
         "type": "github"
       },
       "original": {
@@ -54,7 +54,7 @@
     },
     "root": {
       "inputs": {
-        "flakehub": "flakehub",
+        "flakeforge": "flakeforge",
         "nixpkgs": "nixpkgs"
       }
     }
